@@ -1,3 +1,5 @@
+[![Playwright Tests](https://github.com/VishalThapaliya/qa-automation-playwrite/actions/workflows/playwright.yml/badge.svg)](https://github.com/VishalThapaliya/qa-automation-playwrite/actions/workflows/playwright.yml)
+
 # Saucedemo E2E Test Suite - Playwright + TypeScript
 
 Automated end-to-end tests for saucedemo.com and API testings for jsonplaceholder.typicode.com, built to practice production-style test-design: Page Object Model, web-first assertions, cross-browser runs, and data-correctness checks (not just navigation checks).
@@ -15,13 +17,13 @@ Automated end-to-end tests for saucedemo.com and API testings for jsonplaceholde
 - Sort correctness (verifies actual data order, not just that sorting ran)
 
 ## Running locally
-\'\'\'bash
+\`\`\`bash
 npm install
 npx playwright install
 npx playwright test
-\'\'\'
+\`\`\`
 
 ## Viewing the report
-\'\'\'bash
+\`\`\`bash
 npx playwright show-report
-\'\'\'
+\`\`\`
